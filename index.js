@@ -19,3 +19,33 @@ for (var i = 0; i < primaryNavLinks.length; i++) {
 		primaryNavWrapper.classList.toggle("open");
 	});
 }
+
+// SWIPER
+const swiper = new Swiper(".swiper", {
+	// Optional parameters
+	// effect: "fade",
+	spaceBetween: 320,
+	speed: 600,
+	loop: true,
+
+	// fadeEffect: {
+	// 	crossFade: true,
+	// },
+
+	// If we need pagination
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},
+
+	// Navigation arrows
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+
+	// And if we need scrollbar
+	// scrollbar: {
+	// 	el: ".swiper-scrollbar",
+	// },
+});

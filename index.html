@@ -5,6 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
+		<!-- SWIPER CSS -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 		<title>Home - cre8-u</title>
 	</head>
 	<body>
@@ -23,7 +25,7 @@
 								<ul>
 									<li><a href="#about">About Cynthia</a></li>
 									<li><a href="#">Services</a></li>
-									<li><a href="#">Success Stories</a></li>
+									<li><a href="#success_stories">Success Stories</a></li>
 									<li><a href="#">Contact</a></li>
 								</ul>
 							</nav>
@@ -60,7 +62,7 @@
 					<div class="about-flex-image"></div>
 
 					<div class="about-flex-text">
-						<h1 class="text-center">About Cynthia</h1>
+						<h2 class="text-center">About Cynthia</h2>
 						<p>I am a wife and mother of 3, originally from Brazil. I have passion for fitness & wellbeing and for helping my clients deliver life changing results. I understand how hard it can be to start or get back into an exercise routine…. Been there, done that!</p>
 
 						<p>In the end I believe that is all about prioritising and making a commitment with yourself to be the best that you can be.</p>
@@ -73,6 +75,50 @@
 
 						<p><a href="tel:07557793917">07557793917</a></p>
 					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- SUCCESS STORIES -->
+		<div id="success_stories" class="success-stories bg-black text-white text-center">
+			<div class="container">
+				<h2 class="text-center">Success Stories</h2>
+				<h3 class="text-center">Real Stories. Real People</h3>
+				<!-- SWIPER -->
+				<div class="swiper">
+					<!-- SWIPER WRAPPER -->
+					<div class="swiper-wrapper">
+						<!-- SLIDE 1 -->
+						<div class="swiper-slide">
+							<figure>
+								<blockquote>I have met Cynthia in a baby group 8 years ago and she was wearing gym clothes and looked stunning albeit having a 6 month baby. By this you can tell how committed and determined Cynthia is to looking after her health. Since then she had 2 more babies and re-trained as a personal trainer. I had the privilege to be coached by Cynthia who has a vast knowledge and experience in this field. She also knows how busy mums are and gives so many tips on how to fit a routine of exercises and the importance of eating heathy. I would highly recommend her, as she also brings lots of motivation, energy and good vibes. You will be inspired by her passion to live an active and vibrant lifestyle.</blockquote>
+								<figcaption>Nadia Jackson (RH Manager)</figcaption>
+							</figure>
+						</div>
+						<!-- SLIDE 2 -->
+						<div class="swiper-slide">
+							<figure>
+								<blockquote>I met Cynthia about a year ago while I went for a run. Since then I attended many sessions. Cynthia has a great knowledge of fitness. She is enthusiastic, push us to our limits but every session is planned to accommodate fitness level of people attending classes. I’m expecting my second child and as mother of three she has lots of experience of her own. She gives me advice, showing me modifications of exercises and always makes sure we do each exercise correctly. Every session is different, hard work but lots of fun and we always leave with happy smile. Asking her for a number on that sunday morning was best decision I made.</blockquote>
+								<figcaption>Mirka Solanicova (Mother of 2)</figcaption>
+							</figure>
+						</div>
+						<!-- SLIDE 3 -->
+						<div class="swiper-slide">
+							<figure>
+								<blockquote>I have been training with Cynthia for a year and can’t recommend her enough. The class is a friendly group of women and it’s a pleasure to exercise on Hampstead Heath extension with its stunning views. She brings along weights and equipment for all levels of fitness. Some of the class are very sporty, some of us less so, but she makes sure everyone is challenged. I particularly appreciate how careful she is to monitor our postures during the exercises. There’s a class during the week after school drop off and first thing on a Sunday to make it easier to do at least one a week - I try to do both. You pay per session rather than buying a block so it doesn’t matter if you miss one. And they are very good value for an intense hour’s hard workout. I’m definitely fitter and stronger. The fact Cynthia herself is a real athlete and looks so phenomenal - whilst a mum to 3 young kids - is proof of her high standards!</blockquote>
+								<figcaption>Monica Flores (Television Executive)</figcaption>
+							</figure>
+						</div>
+					</div>
+					<!-- PAGINATION -->
+					<div class="swiper-pagination"></div>
+
+					<!-- NAVIGATION BUTTONS -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+
+					<!-- SCROLLBAR -->
+					<!-- <div class="swiper-scrollbar"></div> -->
 				</div>
 			</div>
 		</div>
@@ -96,6 +142,7 @@
 			</div>
 		</footer>
 
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 		<script src="index.js"></script>
 	</body>
 </html>
