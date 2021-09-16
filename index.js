@@ -24,6 +24,7 @@ for (var i = 0; i < primaryNavLinks.length; i++) {
 const swiper = new Swiper(".swiper", {
 	// Optional parameters
 	// effect: "fade",
+	grabCursor: true,
 	spaceBetween: 320,
 	speed: 600,
 	loop: true,
