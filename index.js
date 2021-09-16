@@ -20,6 +20,19 @@ for (var i = 0; i < primaryNavLinks.length; i++) {
 	});
 }
 
+// HEIGHT OF THE HERO IMAGE
+// 100VH MOBILE FIX
+// THIS FIXES THE BUG ON iOS Safari WHERE THE ADDRESS BAR (CHIN) TAKES UP A PORTION OF THE SCREEN
+
+// FIND THE FULL HEIGHT OF THE VIEWPORT
+var fullHeight = window.innerHeight;
+
+// TARGET THE INTRO
+var headerBg = document.getElementById("headerBg");
+
+// APPLY THE FULL HEIGHT TO THE INTRO
+headerBg.style.height = fullHeight + "px";
+
 // SWIPER
 const swiper = new Swiper(".swiper", {
 	// Optional parameters
