@@ -107,18 +107,22 @@ a {
 .header {
 	// .header-bg
 	&-bg {
-		background-image: url(img/hero-1154-min.jpg);
+		background-image: url(img/hero-768-min.jpg);
 		background-size: cover;
 		background-position: 49% 25%;
 		background-repeat: no-repeat;
 		min-height: 640px;
 
-		@media screen and (min-width: 1154px) {
+		@media screen and (min-width: 769px) {
+			background-image: url(img/hero-1154-min.jpg);
+		}
+
+		@media screen and (min-width: 1155px) {
 			background-image: url(img/hero-1920-min.jpg);
 		}
 
-		@media screen and (min-width: 1920px) {
-			background-image: url(img/hero-FULL-min.jpg);
+		@media screen and (min-width: 1921px) {
+			background-image: url(img/hero-2560-min.jpg);
 		}
 	}
 
@@ -357,7 +361,7 @@ a {
 			background-size: cover;
 			background-position: 50% 15%;
 			background-repeat: no-repeat;
-			min-height: 360px;
+			min-height: 640px;
 
 			@media screen and (min-width: 768px) {
 				flex: 1 1 50%;
