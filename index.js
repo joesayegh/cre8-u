@@ -20,6 +20,12 @@ for (var i = 0; i < primaryNavLinks.length; i++) {
 	});
 }
 
+// SMOOTH SCROLL
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1100,
+	speedAsDuration: true,
+});
+
 // HEIGHT OF THE HERO IMAGE
 // 100VH MOBILE FIX
 // THIS FIXES THE BUG ON iOS Safari WHERE THE ADDRESS BAR (CHIN) TAKES UP A PORTION OF THE SCREEN
