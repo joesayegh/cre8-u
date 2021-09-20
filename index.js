@@ -42,11 +42,14 @@ headerBg.style.height = fullHeight + "px";
 // SWIPER
 const swiper = new Swiper(".swiper", {
 	// Optional parameters
-	// effect: "fade",
+	// autoplay: {
+	// 	delay: 5000,
+	// },
 	grabCursor: true,
 	spaceBetween: 320,
 	speed: 600,
 	loop: true,
+	// effect: "fade",
 
 	// fadeEffect: {
 	// 	crossFade: true,
