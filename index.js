@@ -72,3 +72,7 @@ const swiper = new Swiper(".swiper", {
 	// 	el: ".swiper-scrollbar",
 	// },
 });
+
+// WRITE THE YEAR IN THE FOOTER
+var thisYear = new Date().getFullYear();
+document.getElementById("year").innerHTML = thisYear;
