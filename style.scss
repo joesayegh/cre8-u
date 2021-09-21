@@ -483,6 +483,27 @@ a {
 	}
 }
 
+// FULL WIDTH IMAGE
+.full-width-image {
+	background-image: url(img/pro-11-768-min.jpg);
+	background-size: cover;
+	background-position: 38% 47%;
+	background-repeat: no-repeat;
+	min-height: 640px;
+
+	@media screen and (min-width: 769px) {
+		background-image: url(img/pro-11-1154-min.jpg);
+	}
+
+	@media screen and (min-width: 1155px) {
+		background-image: url(img/pro-11-1920-min.jpg);
+	}
+
+	@media screen and (min-width: 1921px) {
+		background-image: url(img/pro-11-2560-min.jpg);
+	}
+}
+
 // SUCCESS STORIES
 .success-stories {
 	padding: 40px 0;
