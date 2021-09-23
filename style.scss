@@ -3,12 +3,14 @@
 	// COLORS
 	--text: rgba(0, 0, 0, 1);
 	--bg: rgba(255, 255, 255, 1);
+	--bg-alt: rgba(250, 250, 250, 1);
 	--accent: rgba(0, 122, 255, 1);
 
 	// DARK MODE COLORS
 	@media (prefers-color-scheme: dark) {
 		--text: rgba(255, 255, 255, 1);
 		--bg: rgba(0, 0, 0, 1);
+		--bg-alt: rgba(5, 5, 5, 1);
 		--accent: rgba(255, 0, 0, 1);
 	}
 
@@ -80,11 +82,15 @@ img {
 	margin-left: auto;
 }
 
-.bg-black {
+.bg-default {
 	background-color: var(--bg);
 }
 
-.text-white {
+.bg-alt {
+	background-color: var(--bg-alt);
+}
+
+.text-default {
 	color: var(--text);
 }
 
