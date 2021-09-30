@@ -373,13 +373,20 @@ a.btn {
 }
 
 // INTRO
-.intro {
+.intro,
+.quote {
 	padding: 60px 0;
 
 	h2 {
 		max-width: 750px;
 		margin: 0 auto;
 		margin-bottom: 60px;
+	}
+}
+
+.quote {
+	h2 {
+		max-width: 480px;
 	}
 }
 
