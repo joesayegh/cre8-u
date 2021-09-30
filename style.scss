@@ -395,6 +395,13 @@ a.btn {
 			min-height: auto;
 		}
 
+		&-reverse {
+			@media screen and (min-width: 768px) {
+				flex-direction: row-reverse;
+				min-height: auto;
+			}
+		}
+
 		&-image {
 			flex: 1 1 auto;
 			background-image: url(img/cynthia-profile-768-min.jpg);
@@ -436,7 +443,7 @@ a.btn {
 		display: flex;
 		flex-direction: column;
 
-		@media screen and (min-width: 501px) {
+		@media screen and (min-width: 640px) {
 			flex-direction: row;
 			flex-wrap: wrap;
 		}
@@ -458,7 +465,7 @@ a.btn {
 				border: 10px solid var(--accent);
 			}
 
-			@media screen and (min-width: 501px) {
+			@media screen and (min-width: 640px) {
 				flex: 1 1 45%;
 
 				&:nth-child(odd) {
@@ -466,13 +473,13 @@ a.btn {
 				}
 			}
 
-			@media screen and (min-width: 960px) {
-				flex: 1 1 22%;
+			// @media screen and (min-width: 960px) {
+			// 	flex: 1 1 22%;
 
-				&:last-child {
-					margin-right: 0;
-				}
-			}
+			// 	&:last-child {
+			// 		margin-right: 0;
+			// 	}
+			// }
 
 			.image {
 				min-height: 420px;
@@ -481,26 +488,31 @@ a.btn {
 				background-repeat: no-repeat;
 
 				&-one {
-					background-image: url(img/pro-03-500-min.jpg);
+					// background-image: url(img/pro-03-500-min.jpg);
+					background-image: url(img/personal-training-640-min.jpg);
+					background-position: 36% 50%;
 				}
 
 				&-two {
-					background-image: url(img/pro-05-500-min.jpg);
+					// background-image: url(img/pro-05-500-min.jpg);
+					background-image: url(img/womens-specialist-640-min.jpg);
 				}
 
 				&-three {
-					background-image: url(img/pro-07-500-min.jpg);
+					// background-image: url(img/pro-07-500-min.jpg);
+					background-image: url(img/nutritional-adviser-640-min.jpg);
 				}
 
 				&-four {
-					background-image: url(img/pro-17-500-min.jpg);
+					// background-image: url(img/pro-17-500-min.jpg);
+					background-image: url(img/animal-flow-640-min.jpg);
 				}
 			}
 
 			.text {
 				padding: 20px 15px 40px;
 
-				@media screen and (min-width: 501px) {
+				@media screen and (min-width: 640px) {
 					padding: 15px 15px 40px;
 				}
 			}
