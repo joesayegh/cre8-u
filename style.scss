@@ -146,6 +146,7 @@ a.btn {
 		background-position: 49% 25%;
 		background-repeat: no-repeat;
 		min-height: 640px;
+		max-height: 100vh;
 
 		@media screen and (min-width: 769px) {
 			background-image: url(img/hero-1154-min.jpg);
